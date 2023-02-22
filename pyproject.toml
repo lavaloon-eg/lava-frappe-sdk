@@ -1,0 +1,20 @@
+[project]
+name = "lava-frappe-sdk"
+version = "1.0.0"
+authors = [
+  { name="Lavaloon Development", email="dev@lavaloon.com" },
+]
+description = "Basic building blocks and utilities for frappe and ERPNext apps"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies =  ["Babel>=2.6.0", "opencensus-ext-azure>=1.1.8", "Werkzeug>=0.16.1", "Jinja2>=2.11.3", "urllib3>=1.25.7"]
+
+[project.urls]
+"Homepage" = "https://github.com/lavaloon-eg/lava-frappe-sdk"
+"Bug Tracker" = "https://github.com/lavaloon-eg/lava-frappe-sdk/issues"

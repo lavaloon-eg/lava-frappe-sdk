@@ -1,0 +1,4 @@
+
+
+class POSException(Exception):
+    pass
